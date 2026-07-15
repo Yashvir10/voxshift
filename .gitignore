@@ -1,0 +1,16 @@
+# Generated media
+outputs/
+uploads/
+*.mp3
+*.mp4
+*.srt
+concat.txt
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
