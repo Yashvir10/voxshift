@@ -45,13 +45,15 @@ VoxShift automates the entire dubbing workflow: transcription → translation �
 
 ```
 voxshift/
-├── app.py                 # Flask web server
-├── main.py                # Core dubbing pipeline (CLI-runnable)
-├── templates/
-│   └── index.html         # Web UI
-├── uploads/                # Temporary uploaded videos (gitignored)
-├── outputs/                 # Final dubbed videos (gitignored)
+├── project/
+│   ├── app.py              # Flask web server
+│   ├── main.py             # Core dubbing pipeline (CLI-runnable)
+│   ├── templates/
+│   │   └── index.html      # Web UI
+│   ├── uploads/             # Temporary uploaded videos (gitignored)
+│   └── outputs/             # Final dubbed videos (gitignored)
 ├── requirements.txt
+├── .gitignore
 ├── LICENSE
 └── README.md
 ```
